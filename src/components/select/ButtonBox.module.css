@@ -1,0 +1,25 @@
+.btnbox{
+display:flex;
+gap:5rem;
+margin-top:5rem
+}
+.eat{
+    border:none;
+    background:var(--color-ten);
+    color:var(--color-whitefont);
+    padding:6rem 3rem;
+    border-radius: 20px;
+    font-size:2rem;
+    font-family: 'bm hanna pro';
+    cursor:pointer
+}
+.take{
+    border:none;
+    background:var(--color-ten);
+    color:var(--color-whitefont);
+    padding:6rem 3rem;
+    border-radius: 20px;
+    font-size:2rem;
+    font-family: 'bm hanna pro';
+    cursor:pointer
+}

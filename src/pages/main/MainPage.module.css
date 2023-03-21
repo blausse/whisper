@@ -1,0 +1,43 @@
+.main{
+    width:100vw;
+    height:100vh;
+    max-width:1000px;
+    margin:auto;
+    position: relative;
+    cursor:pointer
+}
+.image{
+    width:100%;
+    height:100%
+}
+.main .finger{
+    position: absolute;
+    top:300px;
+    left: 50%;
+    transform: translateX(-50%);
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    animation-name:show;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+.fingerfont{
+    color:var(--color-whitefont);
+    font-family:'bm hanna pro'
+}
+.main .fingericon{
+    width:70px;
+    height:70px;
+    fill:var(--color-whitefont)
+}
+@keyframes show{
+    0%{
+        opacity:0
+    }
+    100%{
+        opacity:1
+    }
+}

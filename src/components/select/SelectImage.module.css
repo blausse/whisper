@@ -1,0 +1,29 @@
+.typo1{
+    font-family:'bm hanna pro';
+    font-size:1.5rem;
+    margin-bottom:0.5rem;
+    color:var(--color-blacktitle)
+}
+
+.typo2{
+    font-family: 'bm hanna pro';
+    color:var(--color-blacktitle)
+}
+.typo2::before{
+    content:'';
+    display:block;
+    width:2px;
+    height:100px;
+    background: #000;
+    margin-bottom:0.5rem;
+    color:var(--color-blacktitle)
+}
+.background{
+    background:url(../../assets/images/mainImage1.png);
+    background-size:cover;
+    width:100%;
+    min-height:500px;
+    box-sizing: border-box;
+    padding:80px 0 0 80px;
+    animation:fadeIn 20s infinite linear
+}
