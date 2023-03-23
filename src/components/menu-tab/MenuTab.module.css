@@ -2,5 +2,40 @@
     margin-top:40px;
     width:100%;
     background: #000;
-    height:60px;
+    height:80px;
+    position: relative;
+}
+.tablist{
+    display:flex;
+    gap:0.5rem;
+    margin:auto;
+    justify-content: center;
+    align-items:flex-end;
+    height:100%;
+}
+.tablist>li{
+    padding:1.3rem 1rem;
+    background:var(--color-ten);
+    border-radius: 5px 5px 0 0;
+    color:var(--color-whitefont);
+    font-family: 'bm hanna pro';
+    font-size:1.3rem;
+    cursor:pointer
+}
+
+.arrowbox>.back,.arrowbox>.forward{
+    color:white;
+    position: absolute;
+    width:50px;
+    height:80px;
+    background: red;
+    cursor:pointer
+}
+.back{
+    left:0;
+    border-radius: 0 5px 5px 0;
+}
+.forward{
+    right:0;
+    border-radius: 5px 0 0 5px;
 }

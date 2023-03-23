@@ -1,0 +1,14 @@
+.orderlist{
+    width:100%;
+    max-width:1000px;
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.orderlist .icon{
+    width:70px;
+    height:70px;
+    fill:var(--color-logofont)
+}

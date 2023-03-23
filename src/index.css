@@ -11,3 +11,16 @@ body,p,div,ul,ol,li{
     padding:0;
     margin:0;
 }
+ul,ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:inherit
+}
+.active{
+    background: white
+    !important;
+    color:black
+    !important
+}
